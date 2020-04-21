@@ -3,7 +3,7 @@ FROM lappis/botflow-requirements as build-stage
 WORKDIR /botflow
 COPY ./app .
 
-ENV REACT_APP_URL_API https://botflow-api.dev.lappis.rocks/
+ENV REACT_APP_URL_API https://botflow.c3.complemento.net.br/
 
 ARG configuration=production
 
